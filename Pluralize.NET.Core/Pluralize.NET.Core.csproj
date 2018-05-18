@@ -5,38 +5,26 @@
     <PackOnBuild>true</PackOnBuild>
     <PackageId>Pluralize.NET.Core</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>Blake Embrey</Authors>
+    <Authors>Blake Embrey (Ported by Sarath Kumar, .NET Core by Ricky Vega) </Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseUrl>https://github.com/rvegajr/Pluralize.NET.Core/blob/master/LICENSE</PackageLicenseUrl>
-    <Owners>Blake Embrey</Owners>
+    <Owners>Ricky Vega</Owners>
     <PackageProjectUrl>https://github.com/rvegajr/Pluralize.NET.Core</PackageProjectUrl>
-    <Summary>I could not find a good C# alternative for converting words from singular to plural and vice versa. [System.Data.Entity.Design.PluralizationServices.PluralizationService](https://msdn.microsoft.com/en-us/library/system.data.entity.design.pluralizationservices.pluralizationservice(v=vs.110).aspx) and [Humanizer](http://humanizr.net/) library did not meet the expectations (try 'shoes' or 'toes'). However this small but awesome Javascript libray [pluralize](https://github.com/blakeembrey/pluralize) worked very well for me and I decided to convert the code to C# and use it.</Summary>
+    <Summary>Pluralize and singularize any word.</Summary>
     <Title>Pluralize.NET.Core</Title>
-    <Description>The MIT License (MIT)
+    <Description>This is a C# port of Blake Embrey's pluralize library which helps in pluralizing or singularizing any English word.  
 
-Copyright (c) 2013 Blake Embrey (hello@blakeembrey.com)
-Ported to C# by Sarath KCM
-Forked, compiled and published as .NETStandard 2,0 by Ricky Vega
+Originally from Sarath Kumar CM: "I could not find a good C# alternative for converting words from singular to plural and vice versa. System.Data.Entity.Design.PluralizationServices.PluralizationService and Humanizer library did not meet the expectations (try 'shoes' or 'toes'). However this small but awesome Javascript libray pluralize worked very well for me and I decided to convert the code to C# and use it.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-</Description>
+I forked, migrated and compiled this into .NET Standard 2.0.  This code does exactly what I need without the bulk.  Much respect to Mr Embrey (the original code) and Mr Kumar (for the original port).</Description>
     <ReleaseVersion>1.0.0</ReleaseVersion>
+    <PackageTags>plurals
+singular
+words
+english
+language
+pluralize
+pluralization</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
