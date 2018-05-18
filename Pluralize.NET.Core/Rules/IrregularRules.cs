@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Pluralize.NET.Rules
+namespace Pluralize.NET.Core.Rules
 {
     internal static class IrregularRules
     {

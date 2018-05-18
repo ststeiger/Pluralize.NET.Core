@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Pluralize.NET.Rules
+namespace Pluralize.NET.Core.Rules
 {
     internal static class Uncountables
     {
