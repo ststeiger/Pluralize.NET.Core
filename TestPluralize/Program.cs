@@ -1,9 +1,13 @@
 ﻿
 namespace TestPluralize
 {
-    class Program
+
+
+    public class Program
     {
-        static void Main(string[] args)
+
+
+        public static void Main(string[] args)
         {
             Pluralize.NET.Core.Pluralizer plu = new Pluralize.NET.Core.Pluralizer();
 
@@ -38,6 +42,9 @@ namespace TestPluralize
 
             System.Console.WriteLine(plural);
             System.Console.WriteLine(singular);
+
+            AsyncSafety.Test();
+            ThreadSafety.Test();
 
             System.Console.WriteLine(" --- Press any key to continue --- ");
             System.Console.ReadKey();
