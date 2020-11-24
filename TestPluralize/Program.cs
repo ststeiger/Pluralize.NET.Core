@@ -29,6 +29,7 @@ namespace TestPluralize
             original = "fez"; // bug - fixed 
 
             original = "puppy";
+            original = "mountainfez"; // bug - doesn't recognize ending
 
 
             // original = original.Trim();
