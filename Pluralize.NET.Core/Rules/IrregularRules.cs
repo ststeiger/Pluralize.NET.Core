@@ -58,7 +58,10 @@ namespace Pluralize.NET.Core.Rules
                 {"thief", "thieves"},
                 {"groove", "grooves"},
                 {"pickaxe", "pickaxes"},
-                {"whiskey", "whiskies"}
+                {"whiskey", "whiskies"},
+
+                {"fez", "fezzes"},
+                {"gas", "gasses"},
             };
 
         public static Dictionary<string, string> GetIrregularPlurals()

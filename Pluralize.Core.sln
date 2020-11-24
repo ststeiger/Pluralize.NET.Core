@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralize.NET.Core", "Pluralize.NET.Core\Pluralize.NET.Core.csproj", "{1B74DB1C-D214-4E15-BF2C-5EF402715CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pluralize.NET.Core", "Pluralize.NET.Core\Pluralize.NET.Core.csproj", "{1B74DB1C-D214-4E15-BF2C-5EF402715CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralize.NET.Core.Tests", "Pluralize.NET.Core.Tests\Pluralize.NET.Core.Tests.csproj", "{1EE035E9-4E9F-42A2-8EEC-9D5C0B064B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pluralize.NET.Core.Tests", "Pluralize.NET.Core.Tests\Pluralize.NET.Core.Tests.csproj", "{1EE035E9-4E9F-42A2-8EEC-9D5C0B064B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPluralize", "TestPluralize\TestPluralize.csproj", "{279DD087-817F-4E89-9114-DBA45075C508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +23,16 @@ Global
 		{1EE035E9-4E9F-42A2-8EEC-9D5C0B064B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE035E9-4E9F-42A2-8EEC-9D5C0B064B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE035E9-4E9F-42A2-8EEC-9D5C0B064B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279DD087-817F-4E89-9114-DBA45075C508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279DD087-817F-4E89-9114-DBA45075C508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279DD087-817F-4E89-9114-DBA45075C508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279DD087-817F-4E89-9114-DBA45075C508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F37954-3CEB-4B67-9AC7-9CDAEA305448}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
