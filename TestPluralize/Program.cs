@@ -34,7 +34,7 @@ namespace TestPluralize
 
             original = "puppy";
             original = "mountainfez"; // bug - doesn't recognize ending
-
+            original = "noblegas";  // bug - doesn't recognize ending
 
             // original = original.Trim();
             string plural = plu.Pluralize(original);
